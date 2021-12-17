@@ -29,13 +29,15 @@ App going to runn on 127.0.0.1:8001
   - make migrate / makemigrations
   
 
-(Manually) run and helpful commands
+(Manually) run and helpful commands (Linux)
 ------------
 * for initial setup  
     - sh setup.sh
   
 * for initial data  
+    - sh loaddata.sh
+  
+* for dump data to fixture data  
     - sh dumpdata.sh
-
 * for runserver  
     - sh runserver.sh

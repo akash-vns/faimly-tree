@@ -9,9 +9,11 @@ chmod 755 venv/bin/activate
 
 echo "Activate venv"
 . venv/bin/activate
-
+clear
 echo "Installing requirements .."
 pip install -r requirements.txt
-
+clear
 echo "Migrating .."
 ./manage.py migrate
+clear
+sh ./loaddata.sh
