@@ -1,0 +1,368 @@
+[
+{
+    "model": "user.family",
+    "pk": 11,
+    "fields": {
+        "created_at": "2021-12-17T17:14:08.483Z",
+        "updated_at": "2021-12-17T17:14:08.483Z",
+        "user": 1,
+        "first_name": "parent root",
+        "last_name": "r1",
+        "address": null,
+        "parent": null,
+        "mobile_number": "+919999999999",
+        "email": "pr1@g.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 12,
+    "fields": {
+        "created_at": "2021-12-17T17:14:46.142Z",
+        "updated_at": "2021-12-17T17:14:46.142Z",
+        "user": 1,
+        "first_name": "sub 1",
+        "last_name": "r2",
+        "address": null,
+        "parent": 11,
+        "mobile_number": "+919999999999",
+        "email": "prsub1@g.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 13,
+    "fields": {
+        "created_at": "2021-12-17T17:15:50.395Z",
+        "updated_at": "2021-12-17T17:15:50.395Z",
+        "user": 1,
+        "first_name": "sub 2",
+        "last_name": "psub2",
+        "address": null,
+        "parent": 11,
+        "mobile_number": "+919999999999",
+        "email": "psub2@g.co"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 14,
+    "fields": {
+        "created_at": "2021-12-17T17:16:45.203Z",
+        "updated_at": "2021-12-17T17:16:45.203Z",
+        "user": 1,
+        "first_name": "sub 3",
+        "last_name": "psub3",
+        "address": null,
+        "parent": 11,
+        "mobile_number": "+919999999999",
+        "email": "psub3@v.co"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 15,
+    "fields": {
+        "created_at": "2021-12-17T17:18:23.965Z",
+        "updated_at": "2021-12-17T17:18:23.965Z",
+        "user": 1,
+        "first_name": "sub1 sub 1",
+        "last_name": "subsub1",
+        "address": null,
+        "parent": 12,
+        "mobile_number": "+919999999999",
+        "email": "subsub1@v.co"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 16,
+    "fields": {
+        "created_at": "2021-12-17T17:18:54.685Z",
+        "updated_at": "2021-12-17T17:18:54.685Z",
+        "user": 1,
+        "first_name": "sub1sub2",
+        "last_name": "subsub2",
+        "address": null,
+        "parent": 12,
+        "mobile_number": "+919999999999",
+        "email": "sub1sub2@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 17,
+    "fields": {
+        "created_at": "2021-12-17T17:20:05.748Z",
+        "updated_at": "2021-12-17T17:20:05.748Z",
+        "user": 1,
+        "first_name": "sub2sub1",
+        "last_name": "sub2 sub1",
+        "address": null,
+        "parent": 13,
+        "mobile_number": "+919999999999",
+        "email": "sub2sub1@gmail.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 18,
+    "fields": {
+        "created_at": "2021-12-17T17:21:11.364Z",
+        "updated_at": "2021-12-17T17:21:11.364Z",
+        "user": 1,
+        "first_name": "sub2sub2",
+        "last_name": "sub2sub2",
+        "address": null,
+        "parent": 13,
+        "mobile_number": "+919999999999",
+        "email": "sub2sub2@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 19,
+    "fields": {
+        "created_at": "2021-12-17T17:21:55.908Z",
+        "updated_at": "2021-12-17T17:21:55.908Z",
+        "user": 1,
+        "first_name": "sub1sub1sub1",
+        "last_name": "sub111",
+        "address": null,
+        "parent": 15,
+        "mobile_number": "+919999999999",
+        "email": "sub111@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 20,
+    "fields": {
+        "created_at": "2021-12-17T17:22:39.047Z",
+        "updated_at": "2021-12-17T17:22:39.047Z",
+        "user": 1,
+        "first_name": "sub1sub1sub2",
+        "last_name": "sub112",
+        "address": null,
+        "parent": 15,
+        "mobile_number": "+919999999999",
+        "email": "sub112@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 21,
+    "fields": {
+        "created_at": "2021-12-17T17:23:26.850Z",
+        "updated_at": "2021-12-17T17:23:26.850Z",
+        "user": 1,
+        "first_name": "sub2sub1sub1",
+        "last_name": "sub211",
+        "address": null,
+        "parent": 17,
+        "mobile_number": "+919999999999",
+        "email": "sub211@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 22,
+    "fields": {
+        "created_at": "2021-12-17T17:32:13.055Z",
+        "updated_at": "2021-12-17T17:32:13.055Z",
+        "user": 2,
+        "first_name": "2root",
+        "last_name": "root1",
+        "address": null,
+        "parent": null,
+        "mobile_number": "+919999999999",
+        "email": "root2@v.ocm"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 23,
+    "fields": {
+        "created_at": "2021-12-17T17:32:34.155Z",
+        "updated_at": "2021-12-17T17:33:01.152Z",
+        "user": 2,
+        "first_name": "sub1",
+        "last_name": "11",
+        "address": null,
+        "parent": null,
+        "mobile_number": "+919999999999",
+        "email": "sub1@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 24,
+    "fields": {
+        "created_at": "2021-12-17T17:33:29.627Z",
+        "updated_at": "2021-12-17T17:33:29.627Z",
+        "user": 2,
+        "first_name": "sub2",
+        "last_name": "12",
+        "address": null,
+        "parent": 22,
+        "mobile_number": "+919999999999",
+        "email": "sub12@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 25,
+    "fields": {
+        "created_at": "2021-12-17T17:33:48.409Z",
+        "updated_at": "2021-12-17T17:33:48.409Z",
+        "user": 2,
+        "first_name": "sub3",
+        "last_name": "13",
+        "address": null,
+        "parent": 22,
+        "mobile_number": "+919999999999",
+        "email": "sub13@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 26,
+    "fields": {
+        "created_at": "2021-12-17T17:34:18.178Z",
+        "updated_at": "2021-12-17T17:34:18.178Z",
+        "user": 2,
+        "first_name": "sub12",
+        "last_name": "112",
+        "address": null,
+        "parent": 23,
+        "mobile_number": "+919999999999",
+        "email": "sub112@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 27,
+    "fields": {
+        "created_at": "2021-12-17T17:35:03.644Z",
+        "updated_at": "2021-12-17T17:35:03.644Z",
+        "user": 2,
+        "first_name": "sub11",
+        "last_name": "111",
+        "address": null,
+        "parent": 23,
+        "mobile_number": "+919999999999",
+        "email": "sub111@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 28,
+    "fields": {
+        "created_at": "2021-12-17T17:35:41.455Z",
+        "updated_at": "2021-12-17T17:35:41.455Z",
+        "user": 2,
+        "first_name": "sub121",
+        "last_name": "121",
+        "address": null,
+        "parent": 24,
+        "mobile_number": "+919999999999",
+        "email": "sub121@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 29,
+    "fields": {
+        "created_at": "2021-12-17T17:36:03.051Z",
+        "updated_at": "2021-12-17T17:36:03.051Z",
+        "user": 2,
+        "first_name": "sub122",
+        "last_name": "122",
+        "address": null,
+        "parent": 24,
+        "mobile_number": "+919999999999",
+        "email": "sub122@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 30,
+    "fields": {
+        "created_at": "2021-12-17T17:36:57.384Z",
+        "updated_at": "2021-12-17T17:36:57.384Z",
+        "user": 2,
+        "first_name": "sub123",
+        "last_name": "123",
+        "address": null,
+        "parent": 24,
+        "mobile_number": "+919999999999",
+        "email": "sub123@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 31,
+    "fields": {
+        "created_at": "2021-12-17T17:38:13.519Z",
+        "updated_at": "2021-12-17T17:38:13.519Z",
+        "user": 2,
+        "first_name": "sub1211",
+        "last_name": "1211",
+        "address": null,
+        "parent": 26,
+        "mobile_number": "+919999999999",
+        "email": "sub1211@v.com"
+    }
+},
+{
+    "model": "user.family",
+    "pk": 32,
+    "fields": {
+        "created_at": "2021-12-17T17:39:11.028Z",
+        "updated_at": "2021-12-17T17:39:11.028Z",
+        "user": 2,
+        "first_name": "sub12111",
+        "last_name": "12111",
+        "address": null,
+        "parent": 31,
+        "mobile_number": "+919999999999",
+        "email": "sub12111@v.com"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$GulHB1Oaio4bUjEWq5wqAY$dL3rlwcStGdugC/8gNwHKKaqyWoIv0003/EcBsgFnSY=",
+        "last_login": "2021-12-17T16:44:00.784Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-12-17T06:35:45.202Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$ezq052Ti3miZvgB5JKLmc6$e/DILVMxwlq8nWSSOtd8/luz8E/g+fO0geSK7BQfFQQ=",
+        "last_login": "2021-12-17T17:28:33.820Z",
+        "is_superuser": true,
+        "username": "admin2",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin2@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-12-17T17:27:52.267Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
