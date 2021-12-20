@@ -41,3 +41,12 @@ App going to runn on 127.0.0.1:8001
     - sh dumpdata.sh
 * for runserver  
     - sh runserver.sh
+
+For the Api's
+------------
+as of now API render with default rest api Template render response , to make simple as it is. 
+and also you can filter the data with member (is family Model object) and relation (like children or sibling etc.)
+
+- url : loclhost:8001/api/
+
+
