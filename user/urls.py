@@ -1,8 +1,8 @@
 from django.conf import settings
 from django.contrib.auth.views import LoginView, LogoutView
-from django.urls import path
+from django.urls import path, include
 from .views import IndexView, FamilyUpdateView, FamilyCreateView, FamilyDeleteView
-
+from .apis.urls import router
 app_name = "user"
 
 urlpatterns = [
@@ -22,5 +22,6 @@ urlpatterns = [
         LogoutView.as_view(next_page=settings.LOGIN_REDIRECT_URL),
         name="logout",
     ),
+    path("api/", include(router.urls)),
 
 ]

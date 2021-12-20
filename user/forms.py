@@ -13,7 +13,7 @@ class FamilyFilterForm(forms.Form):
     def __init__(self, *args, **kwargs):
         user = kwargs.pop("user", None)
         super(FamilyFilterForm, self).__init__(*args, **kwargs)
-        if user.is_authenticated:
+        if user and user.is_authenticated:
             self.fields["member"].queryset = user.familytree.all()
 
     def filter_qs(self):

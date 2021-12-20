@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth import get_user_model
 from django.urls import reverse
+from django.db import IntegrityError
 from phonenumber_field.modelfields import PhoneNumberField
 from utils.abstract_model import TimeStampedModel
 
@@ -84,6 +85,11 @@ class Family(TimeStampedModel):
 
     def get_delete_url(self):
         return reverse('user:family-delete', args=[self.id])
+
+    def save(self, *args, **kwargs):
+        if self.id == self.parent.id:
+            raise IntegrityError("Can not assign self object as parent.")
+        super(Family, self).save(*args, **kwargs)
 
     ################
     #  Properties  #
