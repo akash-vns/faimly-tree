@@ -2,7 +2,6 @@ import django_filters
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
 from ..const import RelationChoice
-from ..models import Family
 from .serializers import FamilyTreeSerializer
 from ..qs import get_family_qs_by_relation
 
@@ -14,6 +13,10 @@ class FamilyFilter(django_filters.rest_framework.FilterSet):
     def filter_data(self, queryset, name, value):
         return queryset
 
+    def __init__(self, *args, **kwargs):
+        user = kwargs.get("request").user
+        super(FamilyFilter, self).__init__(*args, **kwargs)
+        self.declared_filters["member"].queryset = user.familytree.all()
 
 class FamilyViewSet(ModelViewSet):
     serializer_class = FamilyTreeSerializer
